@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.log
+
+# --- Secrets: tokens and auth artifacts (NEVER commit) ---
+.kimi-teams/
+msal_cache.json
+msal_flow.json
+*.enc
+.env
+.env.*
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

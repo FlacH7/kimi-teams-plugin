@@ -1,0 +1,31 @@
+{
+  "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
+  "name": "teams",
+  "version": "0.1.0",
+  "description": "Manage your Microsoft Teams account from Kimi: teams, channels, messages, chats, meetings, calendar, files, presence, and tasks through Microsoft Graph API.",
+  "keywords": [
+    "microsoft teams",
+    "teams",
+    "microsoft 365",
+    "graph api",
+    "meetings",
+    "channels",
+    "chats",
+    "onedrive",
+    "calendar",
+    "tasks"
+  ],
+  "author": "FlacH7",
+  "license": "MIT",
+  "skillInstructions": "Manage Microsoft Teams (teams, channels, messages, chats, meetings, calendar, OneDrive files, presence, and To Do tasks) via Microsoft Graph with MSAL device flow authentication. Use the CLI in scripts/teams_cli.py; authenticate first with the auth subcommand.",
+  "interface": {
+    "displayName": "Microsoft Teams Manager",
+    "shortDescription": "Manage Microsoft Teams: messages, channels, meetings, files, and tasks",
+    "longDescription": "Manage your Microsoft Teams account from Kimi: teams, channels, messages, chats, meetings, calendar, files, presence, and tasks through Microsoft Graph API.",
+    "developerName": "FlacH7",
+    "websiteURL": "",
+    "iconUrl": "",
+    "category": "PRODUCTIVITY"
+  },
+  "skills": "./skills/"
+}
