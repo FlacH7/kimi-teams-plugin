@@ -27,5 +27,8 @@
     "iconUrl": "",
     "category": "PRODUCTIVITY"
   },
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "sessionStart": {
+    "skill": "teams"
+  }
 }
